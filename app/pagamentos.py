@@ -20,7 +20,7 @@ def processar_reembolso(valor_pago, valor_reembolso):
     Retorna -1 caso o reembolso solicitado seja maior que o pago."""
     if valor_reembolso > valor_pago:
         return -1 
-    return valor_pago - valor_reembolso
+    return valor_reembolso
 
 if __name__ == "__main__":
     print("=== Sistema de Teste Interativo de Pagamentos ===")
